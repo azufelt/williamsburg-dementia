@@ -1,0 +1,199 @@
+:root {
+  --yellow: #97A108;
+  --purple: #085BA1;
+  --lavender: #eae7d5;
+  --lightpurple: #eae7d5;
+ 
+  --darkblue: #053861;
+ 
+  --main: #085BA1;
+  --key: #053861;
+  --accent: #97A108;
+  --back: #eae7d5;
+   --white: white;
+   --black: #01161E;
+}
+
+html {
+    font-size: 16px;
+    font-family: century-gothic,
+    sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+ul,
+li {
+  text-align: left;
+  line-height: 2rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--purple);
+  margin-top: 1.2rem;
+  margin-bottom: 0.2rem;
+  font-family: century-gothic,
+  sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2,
+header,
+footer {
+  padding: 0.8rem;
+}
+
+header h1,
+footer,
+footer a {
+  color: white;
+}
+header,
+footer {
+  max-width: 100%;
+}
+div {
+  background-color: var(--back);
+  margin-bottom: 4rem;
+}
+img {
+  max-width: 100%;
+}
+.profile {
+  border: 0.2rem solid #01161eff;
+}
+.logo {
+  max-width: 8rem;
+}
+
+.namedate {
+  color: black;
+  font-size: 0.8rem;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-weight: bold;
+}
+nav li a {
+  display: block;
+  color: #f5f5f5ff;
+  padding: 0.75rem;
+}
+nav a:hover {
+  border-radius: 2rem;
+}
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #1b313bff;
+}
+p a:visited {
+  color: var(--yellow);
+}
+p {
+  font-size: 1rem;
+  padding: 0.1rem 1.5rem 0.1rem 1.5rem;
+  margin-top: 0.2rem;
+  line-height: 1.5rem;
+}
+.paragraphstyle {
+  background-color: var(--main);
+  margin: 1.5rem;
+  padding-right: 1rem;
+}
+.siteplannav {
+  margin: 2rem;
+  padding: 0.2rem;
+}
+ol {
+  text-align: start;
+  margin: 1rem;
+}
+header,
+.siteplannav {
+  background-color: var(--purple);
+}
+.tealblock {
+  background-color: var(--purple);
+  color: var(--white);
+}
+.white {
+  background-color: var(--back);
+}
+span.white {
+  border: 0.1rem solid #01161eff;
+  padding: .3rem;
+}
+.darkblue,
+h2,
+footer {
+  background-color: var(--darkblue);
+}
+.yellow,
+
+html {
+  color: var(--main);
+}
+.paragraphstyle {
+  color: var(--white);
+}
+.yellow,
+nav a:hover {
+  background-color: var(--yellow);
+}
+.black,
+h2,
+.darkblue,
+h2,
+footer {
+  color: #ededebff;
+}
+.black {
+  background-color: #01161eff;
+}
+.teal,
+.tealblock,
+.white,
+.darkblue,
+.yellow,
+.black {
+  padding: 0.1rem;
+}
+.lavendarbox {
+  height: 150px;
+  width: 150px;
+  background-color: var(--lavendar);
+  border: 4px solid var(--purple);
+}
+.purplebox {
+  height: 150px;
+  width: 150px;
+  background-color: var(--purple);
+  color: white;
+}
+.yellowbox {
+  height: 150px;
+  width: 150px;
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+pre {
+  background-color: var(--white);
+  border: 2px solid gray;
+  color: black;
+}
+.mediacard img {
+  max-width: 70%;
+}
